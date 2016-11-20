@@ -1,0 +1,18 @@
+npm install  -  install packages in json
+
+nsp check  - checks packages for vulernabilities
+
+node buildScripts/srcServer.js  -  starts the express webserserv
+
+lt --port 3000 --subdomain guray   -  share app publicly
+
+
+npm start - start script in package.json scripts
+
+npm run security-check
+
+
+
+npm start -s  - starts silent
+
+npm run share
