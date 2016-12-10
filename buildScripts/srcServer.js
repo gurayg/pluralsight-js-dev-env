@@ -25,7 +25,7 @@ app.get('/users', function (req, res) {
 	// Hard coding for simplicity. Pretend this hits a real database
 	res.json([{
 		"id": 1,
-		"firstName": "Bob",
+		"firstName": "From srcServer Hardcoded Bob",
 		"lastName": "Smith",
 		"email": "bob@gmail.com"
 	}, {
