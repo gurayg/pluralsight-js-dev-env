@@ -15,8 +15,8 @@
 		"mocha": true
 	},
 	"rules": {
-    "import/no-extraneous-dependencies": "off",
-    "import/prefer-default-export": "off"
+    "import/no-extraneous-dependencies": "warn",
+    "import/prefer-default-export": "warn"
 	}
 }
 
