@@ -1,8 +1,8 @@
-//This file isn't transpiled, so must use CommonJS and ES5
+// This file isn't transpiled, so must use CommonJS and ES5
 
-//register Babel to transpile before our tests run
+// register Babel to transpile before our tests run
 require('babel-register')();
 
-//disable webpack featured that Mocha doesnt understand
+// disable webpack featured that Mocha doesnt understand
 
-require.extensions['.css'] = function () {};
+require.extensions['.css'] = () => {};

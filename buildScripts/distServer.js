@@ -11,16 +11,14 @@ app.use(compression());
 app.use(express.static('dist'));
 
 /* Route */
-app.get('/', function (req, res) {
-	res.sendFile(path.join(__dirname, '../dist/index.html'));
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '../dist/index.html'));
 });
 
-
-
-app.listen(port, function (err) {
-	if (err) {
-		console.log(err);
-	} else {
-		open('http://localhost:' + port);
-	}
+app.listen(port, (err) => {
+  if (err) {
+    console.log(err);
+  } else {
+    open(`http://localhost:${port}`);
+  }
 });
